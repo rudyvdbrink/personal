@@ -91,7 +91,7 @@ nav ul li a:hover {
 .cv-photo {
     width: 200px; /* Adjust size as needed */
     height: auto;
-    margin-left: 40px; /* Adjust margin to shift the photo to the left */
+    margin-left: 20px; /* Adjust margin to shift the photo to the left */
 }
     
 
@@ -123,6 +123,7 @@ a:hover {
     .center-column {
         width: 100%;
         padding: 20px; /* Adjust padding for smaller screens */
+        padding-bottom: 40px; /* Add more bottom padding */
         margin-top: 0; /* Remove top margin */
         margin-bottom: 0; /* Remove bottom margin */
     }
