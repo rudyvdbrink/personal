@@ -2,7 +2,6 @@ html {
     overflow-y: scroll; /* Always show vertical scrollbar */
 }
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,14 +11,14 @@ body {
     justify-content: center;
 }
 
-
 .center-column {
     width: 35%;
     background-color: #fff;
-    padding: 60px 80px 100px;
+    padding: 100px 80px 100px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-top: 40px; /* Fixed top margin */
+    margin-bottom: 40px; /* Fixed bottom margin */
     position: relative; /* Ensure relative positioning for absolute child */
 }
 
@@ -35,7 +34,8 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    margin-top: 30px;
 }
 
 nav {
@@ -60,7 +60,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: Gray;
     font-size: 18px;
 }
 
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .text-box {
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 10px;
     text-align: left;
     color: gray; /* Text color */
@@ -122,3 +122,13 @@ a:hover {
     height: auto;
 }
 
+/* Page transitions 
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.fade-in {
+    opacity: 1;
+}
+*/

@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="center-column">
-        <img src="images/banner.png" alt="Banner" id="banner">
         <nav>
             <ul>
                 <li><a href="index.html">About</a></li>
@@ -17,6 +16,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <img src="images/banner.png" alt="Banner" id="banner">
         <div class="text-box">
 
             <h1>Scientific Publications</h1>
@@ -93,5 +93,22 @@
         <div class="bottom-border"></div>
         <img src="images/logo_gray.png" alt="Logo" class="bottom-left-logo">
     </div>
+
+    <!--
+    <script>
+     document.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.add('fade-in');
+        });
+    </script>
+    -->
+    <script>    
+        
+        document.querySelectorAll('a').forEach(link => {
+            if (link.href.startsWith('http')) {
+                link.setAttribute('target', '_blank');
+            }
+        });
+    </script>
+    
 </body>
 </html>

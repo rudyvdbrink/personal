@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brink Data Science</title>
+    <title>Rudy van den Brink - PhD</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="center-column">
-        <img src="images/banner.png" alt="Banner" id="banner">
+        
         <nav>
             <ul>
                 <li><a href="index.html">About</a></li>
@@ -17,6 +17,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <img src="images/banner.png" alt="Banner" id="banner">
         <div class="text-box">
             <h1>Rudy van den Brink, PhD</h1>
 
@@ -38,5 +39,22 @@
         <img src="images/logo_gray.png" alt="Logo" class="bottom-left-logo">
         
     </div>
+
+    <!-- Commenting out the page transition script
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.add('fade-in');
+        });
+    </script>
+    -->
+
+    <script>    
+        document.querySelectorAll('a').forEach(link => {
+            if (link.href.startsWith('http')) {
+                link.setAttribute('target', '_blank');
+            }
+        });
+    </script>
+
 </body>
 </html>
