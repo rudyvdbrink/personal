@@ -27,6 +27,8 @@ body {
     .center-column {
         width: 100%;
         padding: 20px; /* Adjust padding for smaller screens */
+        margin-top: 0; /* Remove top margin */
+        margin-bottom: 0; /* Remove bottom margin */
     }
 }
 
