@@ -23,6 +23,14 @@ body {
     position: relative; /* Ensure relative positioning for absolute child */
 }
 
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .center-column {
+        width: 100%;
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -113,3 +121,4 @@ a:hover {
     width: 20px; /* Adjust size as needed */
     height: auto;
 }
+
