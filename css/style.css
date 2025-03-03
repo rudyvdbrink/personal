@@ -128,7 +128,7 @@ a:hover {
     .center-column {
         width: 100%;
         padding: 20px; /* Adjust padding for smaller screens */
-        padding-bottom: 40px; /* Add more bottom padding */
+        padding-bottom: 80px; /* Add more bottom padding */
         margin-top: 0; /* Remove top margin */
         margin-bottom: 0; /* Remove bottom margin */
     }
