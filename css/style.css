@@ -22,6 +22,11 @@ body {
     position: relative; /* Ensure relative positioning for absolute child */
 }
 
+.tech-stack-image {
+    width: 80%; /* Constrain image to within center column */
+    height: auto; /* Maintain aspect ratio */
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -91,7 +96,7 @@ nav ul li a:hover {
 .cv-photo {
     width: 200px; /* Adjust size as needed */
     height: auto;
-    margin-left: 20px; /* Adjust margin to shift the photo to the left */
+    margin-right: 5%;
 }
     
 
