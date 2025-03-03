@@ -1,0 +1,115 @@
+html {
+    overflow-y: scroll; /* Always show vertical scrollbar */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.center-column {
+    width: 35%;
+    background-color: #fff;
+    padding: 60px 80px 100px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 40px; /* Fixed top margin */
+    position: relative; /* Ensure relative positioning for absolute child */
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+nav {
+    border-top: 4px solid rgb(193, 193, 193);
+    border-bottom: 4px solid rgb(193, 193, 193);
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly */
+    margin: 0;
+    width: 100%; /* Ensure the nav takes full width */
+}
+
+nav ul li {
+    flex: 1; /* Make each list item take equal space */
+    text-align: center; /* Center the text within each list item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.text-box {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: left;
+    color: gray; /* Text color */
+    line-height: 2; /* Increased line spacing */
+    font-size: 18px; /* Increased font size */
+}
+
+.cv-page .text-box {
+    line-height: 1.5; /* Set line spacing to 1 for CV page */
+}
+
+
+.cv-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cv-header p {
+    flex: 1;
+}
+
+.cv-photo {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 40px; /* Adjust margin to shift the photo to the left */
+}
+    
+
+.bottom-border {
+    border-top: 4px solid rgb(193, 193, 193);
+    margin-top: 20px;
+}
+
+/* New styles for all links */
+a {
+    text-decoration: none;
+    color: rgb(91, 144, 152);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bottom-left-logo {
+    position: absolute;
+    bottom: 60px; /* Adjust to align with the bottom border */
+    left: 80px;
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+}
