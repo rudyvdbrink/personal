@@ -50,6 +50,10 @@ nav ul li {
     text-align: center; /* Center the text within each list item */
 }
 
+nav ul li a.current-page {
+    color: teal;
+}
+
 nav ul li a {
     text-decoration: none;
     color: Gray;
@@ -99,7 +103,7 @@ nav ul li a:hover {
 /* New styles for all links */
 a {
     text-decoration: none;
-    color: rgb(91, 144, 152);
+    color: teal;
 }
 
 a:hover {
@@ -115,7 +119,7 @@ a:hover {
 }
 
 /* Media query for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .center-column {
         width: 100%;
         padding: 20px; /* Adjust padding for smaller screens */
