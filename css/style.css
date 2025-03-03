@@ -30,6 +30,11 @@ body {
         margin-top: 0; /* Remove top margin */
         margin-bottom: 0; /* Remove bottom margin */
     }
+
+    .tech-stack-image {
+        width: 80%; /* Constrain image to within center column */
+        height: auto; /* Maintain aspect ratio */
+    }
 }
 
 #banner {
