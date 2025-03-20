@@ -12,7 +12,7 @@ body {
 }
 
 .center-column {
-    width: 35%;
+    max-width: 800px;
     background-color: #fff;
     padding: 100px 80px 100px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
